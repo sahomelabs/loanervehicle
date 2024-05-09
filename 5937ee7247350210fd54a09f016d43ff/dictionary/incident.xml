@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasWorkflow=true,live_feed=true,query_hints=true" audit="true" db_object_id="1996b0643cb1311068bcf327dfe37f31" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="x_1245589_loaner_v_image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="x_1245589_loaner_v_status" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Description" mandatory="true" max_length="4000" name="x_1245589_loaner_v_vehicle_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Make" mandatory="true" max_length="40" name="x_1245589_loaner_v_vehicle_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Model" max_length="40" name="x_1245589_loaner_v_vehicle_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Year" mandatory="true" max_length="40" name="x_1245589_loaner_v_vehicle_year" type="string"/>
+    </element>
+</database>

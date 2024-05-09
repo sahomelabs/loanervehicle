@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.vehicle_status == 'returned for inspection' &amp;&amp; current.tracker_status == 'Open';</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Send to Repair</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[current.vehicle_status = 'Sent for Servicing';
+action.setRedirectURL (current);
+current.update();
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dandev</sys_created_by>
+        <sys_created_on>2024-05-08 14:52:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78743d254786c210fd54a09f016d43f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Send to Repair</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
+        <sys_update_name>sys_ui_action_78743d254786c210fd54a09f016d43f2</sys_update_name>
+        <sys_updated_by>dandev</sys_updated_by>
+        <sys_updated_on>2024-05-08 15:13:17</sys_updated_on>
+        <table>x_1245589_loaner_v_vechicle_tracker</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</application>
+        <file_path/>
+        <instance_id>4107066bdbca715437d72a59139619d8</instance_id>
+        <instance_name>dev197486</instance_name>
+        <name>sys_ui_action_78743d254786c210fd54a09f016d43f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.vehicle_status == 'returned for inspection' &amp;amp;&amp;amp; current.tracker_status == 'Open';&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Send to Repair&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.vehicle_status = 'Sent for Servicing';
+action.setRedirectURL (current);
+current.update();
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dandev&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-08 14:52:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;78743d254786c210fd54a09f016d43f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Send to Repair&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v"&gt;5937ee7247350210fd54a09f016d43ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;5937ee7247350210fd54a09f016d43ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_78743d254786c210fd54a09f016d43f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dandev&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-08 15:13:17&lt;/sys_updated_on&gt;&lt;table&gt;x_1245589_loaner_v_vechicle_tracker&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1263693783</payload_hash>
+        <record_name>Send to Repair</record_name>
+        <reverted_from/>
+        <source>bd98623647350210fd54a09f016d4369</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dandev</sys_created_by>
+        <sys_created_on>2024-05-08 15:13:17</sys_created_on>
+        <sys_id>8b19f1294786c210fd54a09f016d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f58c419340000001</sys_recorded_at>
+        <sys_updated_by>dandev</sys_updated_by>
+        <sys_updated_on>2024-05-08 15:13:17</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>4319f1291e86c210f81f89126cfca93e</update_guid>
+        <update_guid_history>4319f1291e86c210f81f89126cfca93e:-1263693783,aae6b5e59f86c210cfe6a1c25c7d7591:1016108202,e506fd650a86c210e130e1c34d2c636d:503204010,34743d25c086c21099605541488444f4:-1776597975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dandev</sys_created_by>
+        <sys_created_on>2024-05-08 15:44:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>111bab7708e24a2288fc118d4132f404</sys_id>
+        <sys_metadata>78743d254786c210fd54a09f016d43f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send to Repair</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
+        <sys_parent display_value="Vehicle Tracker">e881418b47314210fd54a09f016d434b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
+        <sys_scope_delete display_value="">a715ff946d7d42a69e3e82733aedbf59</sys_scope_delete>
+        <sys_update_name>sys_ui_action_78743d254786c210fd54a09f016d43f2</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_78743d254786c210fd54a09f016d43f2">8b19f1294786c210fd54a09f016d433e</sys_update_version>
+        <sys_updated_by>dandev</sys_updated_by>
+        <sys_updated_on>2024-05-08 15:44:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

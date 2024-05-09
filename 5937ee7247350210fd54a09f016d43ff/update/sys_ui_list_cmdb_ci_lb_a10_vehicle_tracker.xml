@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_lb_a10" version="2" view="vehicle_tracker">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>ebcecd4f47714210fd54a09f016d431b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manufacturer</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>63cecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model_id</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>e3cecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>os</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>67cecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>os_version</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>e7cecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>6bcecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="cmdb_ci_lb_a10" element="NULL" name="cmdb_ci_lb_a10" parent="NULL" relationship="NULL" sys_domain="global" view="67ce894f47714210fd54a09f016d432d">e7ce894f47714210fd54a09f016d4332</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_id>ebcecd4f47714210fd54a09f016d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_lb_a10</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>dandev</sys_created_by>
+            <sys_created_on>2024-04-30 17:43:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7ce894f47714210fd54a09f016d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_lb_a10</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_lb_a10_vehicle_tracker</sys_update_name>
+            <sys_updated_by>dandev</sys_updated_by>
+            <sys_updated_on>2024-04-30 17:43:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Vehicle Tracker" name="vehicle_tracker">67ce894f47714210fd54a09f016d432d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
