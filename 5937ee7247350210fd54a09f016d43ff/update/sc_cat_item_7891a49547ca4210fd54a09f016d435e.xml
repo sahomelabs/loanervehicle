@@ -14,7 +14,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Copy of Loaner Vehicle Flow">4a81616c471ec210fd54a09f016d436a</flow_designer_flow>
+        <flow_designer_flow display_value="Loaner Vehicle Flow">4a81616c471ec210fd54a09f016d436a</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
