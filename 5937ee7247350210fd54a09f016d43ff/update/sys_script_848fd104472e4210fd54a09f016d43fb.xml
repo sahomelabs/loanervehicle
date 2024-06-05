@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1245589_loaner_v_vechicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1245589_loaner_v_vechicle_tracker">vehicle_status=sent for servicing^EQ<item display_value="Sent for Servicing" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="=" or="false" value="sent for servicing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Servicing Record on Status Change</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+    // Check if the status is set to "Sent to Servicing"
+    if (current.u_vehicle_status == 'Sent for Servicing') { // Assuming 'u_vehicle_status' is the status field in Vehicle Tracker
+        // Create a new servicing record
+        var servicingRecord = new GlideRecord('u_servicing'); // Assuming 'u_servicing' is the table for servicing records
+        servicingRecord.initialize();
+        servicingRecord.u_vehicle = current.u_vehicle; // Assuming 'u_vehicle' is the reference field to the vehicle in servicing table
+        servicingRecord.u_status = 'Pending'; // Set the initial status of the servicing record
+        servicingRecord.u_tracker_record = current.sys_id; // Link back to the Vehicle Tracker record if needed
+        servicingRecord.insert(); // Insert the new servicing record
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dandev</sys_created_by>
+        <sys_created_on>2024-05-28 18:05:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>848fd104472e4210fd54a09f016d43fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Servicing Record on Status Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
+        <sys_update_name>sys_script_848fd104472e4210fd54a09f016d43fb</sys_update_name>
+        <sys_updated_by>dandev</sys_updated_by>
+        <sys_updated_on>2024-05-28 18:19:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=848fd104472e4210fd54a09f016d43fb"/>
+</record_update>
