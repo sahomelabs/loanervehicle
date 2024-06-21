@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>Loaner Vehicle Warehouse Portal </application_name>
+        <bucket_document_id>5d3670b747360210fd54a09f016d43d5</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1245589_loaner_v.sp_portal.5d3670b747360210fd54a09f016d43d5</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>dandev</sys_created_by>
+        <sys_created_on>2024-06-21 17:03:04</sys_created_on>
+        <sys_id>0c387c3b47360210fd54a09f016d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Warehouse Portal </sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
+        <sys_update_name>sys_analytics_bucket_0c387c3b47360210fd54a09f016d438b</sys_update_name>
+        <sys_updated_by>dandev</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:03:04</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>
