@@ -7,7 +7,7 @@
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage/>
+        <homepage display_value="loaner_vehicle_home">1c91893747760210fd54a09f016d4336</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
@@ -27,15 +27,15 @@
         <sys_created_by>dandev</sys_created_by>
         <sys_created_on>2024-06-21 17:03:03</sys_created_on>
         <sys_id>5d3670b747360210fd54a09f016d43d5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Loaner Vehicle Warehouse Portal </sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1245589_loaner_v">5937ee7247350210fd54a09f016d43ff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">5937ee7247350210fd54a09f016d43ff</sys_scope>
         <sys_update_name>sp_portal_5d3670b747360210fd54a09f016d43d5</sys_update_name>
         <sys_updated_by>dandev</sys_updated_by>
-        <sys_updated_on>2024-06-21 17:19:44</sys_updated_on>
-        <theme/>
+        <sys_updated_on>2024-06-21 17:52:04</sys_updated_on>
+        <theme display_value="Vehicle Warehouse Theme">3133c5f747760210fd54a09f016d43fc</theme>
         <title>Loaner Vehicle Warehouse Portal </title>
         <ts_index_group/>
         <url_suffix>lvri</url_suffix>
